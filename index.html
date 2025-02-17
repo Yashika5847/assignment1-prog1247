@@ -1,0 +1,75 @@
+<!--Yashika Yashika-->
+<!--Student number- 8925847-->
+<!--Assignment 1-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Barack,Obama,American,President,Black,Afrian-American">
+    <meta name="description" content="This site is about the 44th President of America">
+    <title>Barack Obama: Biography, Achievements, and Legacy</title>
+</head>
+<body>
+    <header>
+        <h1>Barack Obama: Biography, Achievements, and Legacy</h1>
+    </header>
+    <main>
+        <section id="biography">
+            <h2>Biography</h2>
+            <blockquote cite="https://en.wikipedia.org/wiki/Barack_Obama">
+                <em> Barack Hussein Obama II </em> (born August 4, 1961) is an American politician who served as <strong> the 44th president of the United States </strong> from 2009 to 2017. A member of the Democratic Party, he was the first African-American president in U.S. history. Obama previously served as a U.S. senator representing Illinois from 2005 to 2008 and as an Illinois state senator from 1997 to 2004.
+            </blockquote>
+        </section>
+        <section id="image">
+            <h2>Image</h2>
+            <figure>
+                <img src="./images/Barack Obama.webp" alt="Barack Obama smiling in a dark blue suit with an American flag brooch on his left blazer lapel." width="200" height="200" title="Barack Obama">
+                <figcaption>Picture of Barack Obama in a formal setting</figcaption>
+            </figure>
+        </section>
+        <section id="video">
+            <h2>Notable Speech</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eWynt87PaJ0?si=kAJr5bcOz7S7InrW" title="Yes We Can Speech" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="quotes">
+            <h2>Famous Quote</h2>
+            <q cite="https://www.brainyquote.com/quotes/barack_obama_168698">If you're walking down the right path and you're willing to keep walking, eventually you'll make progress.</q>
+            <cite><strong>- Barack Obama</strong></cite>
+        </section>
+    </main>
+    <aside>
+        <section id="resources">
+            <h2>More to learn here:</h2>
+            <ul>
+                <li><a href="https://www.barackobama.com/" target="_blank" title="Official Barack Obama Website">Official Website</a></li>
+                <li><a href="https://barackobamabooks.com/" target="_blank" title="Book on Barack Obama">Book on Barack Obama</a></li>
+                <li><a href="https://www.nobelprize.org/prizes/peace/2009/obama/biographical/" target="_blank" title="Nobel Prize Biography">Nobel Prize Biography</a></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2> Contact Form</h2>
+            <form name="contact_us" id="contact_us" method="get" action="contact.php">
+            <label for="username" class="form-label">Username:</label>
+            <input type="text" name="username" id="username" class="form-control" required autofocus placeholder="Please enter your name:"><br>
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" name="password" id="password" class="form-control" required placeholder="Please enter your password:"><br>
+            <label for="views">Please mention your views here:</label>
+            <textarea name="views" id="views" cols="20" rows="2" placeholder="You can give your views here:"></textarea><br>
+            <label for="topic" class="form-label">Your topic of inquiry:</label>
+            <select name="topic" id="topic" class="form-control" size="2">
+                <option value="biography">Biography</option>
+                <option value="achievements">Achievements</option>
+                <option value="speeches">Speeches</option>
+                <option value="other">Other</option>
+            </select><br>   
+            <input type="submit" value="Submit">
+            </form>
+        </section>
+    </aside>
+    <footer>
+        <p>Yashika- PROG1247 &copy; 2025</p>
+    </footer>
+</body>
+</html>
